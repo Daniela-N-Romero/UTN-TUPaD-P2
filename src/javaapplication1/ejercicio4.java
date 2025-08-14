@@ -11,7 +11,7 @@ import java.util.Scanner;
  *
  * @author usuario
  */
-public class ejercicio3b {
+public class ejercicio4 {
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
         System.out.println("Ingresa tu nombre: ");
