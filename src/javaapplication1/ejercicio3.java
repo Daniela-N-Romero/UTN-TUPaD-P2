@@ -1,7 +1,5 @@
 package javaapplication1;
 
-import java.util.Scanner;
-
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
@@ -12,16 +10,14 @@ import java.util.Scanner;
  * @author usuario
  */
 public class ejercicio3 {
-    public static void main(String[] args){
-        Scanner input = new Scanner(System.in);
-        System.out.println("Ingresa tu nombre: ");
-        String nombre = input.nextLine();
-        
-        System.out.println("Ingresa tu edad: ");
-        int edad = Integer.parseInt(input.nextLine());
-        
-        System.out.println("Tu nombre es: "+nombre);
-        System.out.println("Tu edad es: "+edad);
-              
+    
+        public static void main(String[] args) {
+            String nombre = "Daniela";
+            int edad = 31;
+            double altura = 1.58;
+            boolean estudiante = true;
+            System.out.println("Hola soy "+nombre+" y tengo "+edad+" años. Mi altura es "+altura+".");
+            System.out.println("Estudiante: "+estudiante);
     }
+    
 }
